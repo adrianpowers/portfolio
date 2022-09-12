@@ -55,15 +55,20 @@ html {
 
 /* links */
 
-.nav-button:link     { color: #FFFFFF; text-decoration: none;  }
-.nav-button:visited  { color: #f1e0ee; text-decoration: none;  }
-.nav-button:hover    { color: #D0E3F1; text-decoration: none;  }
-.nav-button:active   { color: #003C67; text-decoration: none;  }
+nav-button:link     { color: #FFFFFF; text-decoration: none;  }
+nav-button:visited  { color: #f1e0ee; text-decoration: none;  }
+nav-button:hover    { color: #D0E3F1; text-decoration: none;  }
+nav-button:active   { color: #003C67; text-decoration: none;  }
 
 a:link     { color: #FFFFFF; text-decoration: none; }
 a:visited  { color: #f1e0ee; text-decoration: none; }
 a:hover    { color: #D0E3F1; text-decoration: none; }
 a:active   { color: #003C67; text-decoration: none; }
+
+contact-button:link     { color: #FFFFFF; text-decoration: none;  }
+contact-button:visited  { color: #f1e0ee; text-decoration: none;  }
+contact-button:hover    { color: #D0E3F1; text-decoration: none;  }
+contact-button:active   { color: #003C67; text-decoration: none;  }
 
 /* containers */
 
