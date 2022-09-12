@@ -141,7 +141,7 @@ contact-button:active   { color: #003C67; text-decoration: none;  }
 .child-div-2{
   width: 50%;
   float: left;
-  padding: 40px;
+  padding: 20px;
 }
 
 /* image styling */
@@ -159,7 +159,7 @@ hr{
 
 /* text styling */
 
-h1, h2, h3, p{
+h1, h2, p{
   font-family: Rubik;
   color:#003C67;
 }
@@ -181,7 +181,8 @@ h2{
 
 h3{
   font-size: 20px;
-  line-height:10px;
-  padding-top:20px;
+  font-family: Rubik;
+  line-height:0px;
+  padding-top:10px;
   color:#fff;
 }
