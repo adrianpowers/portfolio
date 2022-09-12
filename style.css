@@ -163,6 +163,10 @@ h1, h2, h3, p{
   color:#003C67;
 }
 
+a{
+  font-family: Rubik;
+}
+
 h1{
   font-size: 40px;
   line-height: 0px;
