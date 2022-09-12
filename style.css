@@ -1,0 +1,177 @@
+/* initialization */
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #78AED5;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+.wrapper{
+  width:device-width;
+  margin:auto;
+}
+
+/* alignment */
+
+.right-align{
+  text-align: right;
+}
+
+.center-align{
+  text-align: center;
+}
+
+/* buttons */
+
+.nav-button, .contact-button{
+  background-color:#bb81b1;
+  border-width:0px;
+  border-radius:5px;
+}
+
+.nav-button{
+  width: 100px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.contact-button{
+  width:200px;
+  height: 50px;
+  padding:0px;
+  margin-top:15px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+/* links */
+
+.nav-button:link     { color: #FFFFFF; text-decoration: none;  }
+.nav-button:visited  { color: #f1e0ee; text-decoration: none;  }
+.nav-button:hover    { color: #D0E3F1; text-decoration: none;  }
+.nav-button:active   { color: #003C67; text-decoration: none;  }
+
+a:link     { color: #FFFFFF; text-decoration: none; }
+a:visited  { color: #f1e0ee; text-decoration: none; }
+a:hover    { color: #D0E3F1; text-decoration: none; }
+a:active   { color: #003C67; text-decoration: none; }
+
+/* containers */
+
+.navigation-container{
+  padding: 13px;
+}
+
+.container{
+  height:76px;
+  background-color:#98558C;
+}
+
+.header-container{
+  height:95px;
+  background-color:#BB81B1;
+  margin-top:0;
+}
+
+.nameplate-container{
+  height:76px;
+  background-color:#BB81B1;
+}
+
+.image-container {
+  margin:15px;
+}
+
+.text-container{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.about-container{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-container{
+  height:150px;
+  background-color:#98558C;
+  margin:0px;
+  border: 1px solid #98558c;
+}
+
+.footer-container{
+  height:75px;
+  background-color:#BB81B1;
+  margin:0px;
+  border: 1px solid #bb81b1;
+}
+
+/* columns */
+
+.parent-div{
+  padding: 20px;
+  height: 300px;
+}
+
+.child-div-1{
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.child-div-2{
+  width: 50%;
+  float: left;
+  padding: 40px;
+}
+
+/* image styling */
+
+.image{
+  border-radius:50%;
+  border: 2px solid #F1B9E8;
+}
+
+/* horizontal rule styling */
+
+hr{
+  border: 3px dashed #f1e0ee;
+}
+
+/* text styling */
+
+h1, h2, h3, p{
+  font-family: Rubik;
+  color:#003C67;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 0px;
+  margin-top: 0px;
+  padding-top: 30px;
+}
+
+h2{
+  font-size: 22px;
+}
+
+h3{
+  font-size: 20px;
+  line-height:0px;
+  padding-top:20px;
+  color:#fff;
+}
