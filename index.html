@@ -47,14 +47,18 @@
   
 <main> 
   <body>
+    <!--parent div, allows for columns within-->
     <div class="parent-div">
-    <!--picture-->
+    <!--first column div-->
       <div class="child-div-1">
+        <!--headshot image-->
         <div class="image-container center-align">
           <img class="image" src="/profile-pic.jpg" width=200px alt="Programmer in a suit and tie, very dapper.">
         </div>
       </div>
+      <!--second column div-->
       <div class="child-div-2">
+        <!--text container to allow for specific padding of this block-->
         <div class="text-container">
           <article id="intro">
             <h3>Hi, I'm Adrian!</h3>
@@ -68,6 +72,7 @@
     <hr>
 
     <article id="about">
+      <!--container to allow styling of this specific block-->
       <div class="about-container">
         <h3>About Me:</h3>
         
@@ -80,6 +85,8 @@
     <article id="contact">
       <div class="contact-container center-align">
         <h3>Connect With Me!</h3>
+        
+        <!--contact buttons-->
         
         <button class="contact-button">
           <a href="www.linkedin.com/in/adrianpowers530"><p>LinkedIn</p></a>
@@ -98,6 +105,8 @@
     <script src="script.js"></script>
   </body>
 </main>
+  
+<!--footer-->
 
 <footer class="footer-container center-align wrapper">
     <h3>© 2022 Adrian Powers</h3>
