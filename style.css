@@ -35,7 +35,8 @@ html {
   background-color:#bb81b1;
   border-width:0px;
   border-radius:5px;
-  font-family: Rubik;
+  font-family: inherit;
+  font-size: 16px;
 }
 
 .nav-button{
