@@ -54,6 +54,11 @@ html {
   margin-right:5px;
 }
 
+.nav-button:hover{ background-color: #d1adcb; }
+.nav-button:active{ background-color: #623259; }
+.contact-button:hover{ background-color: #d1adcb; }
+.contact-button:active{ background-color: #623259; }
+
 /* links */
 
 nav-button:link     { color: #FFFFFF; text-decoration: none;  }
@@ -129,11 +134,11 @@ contact-button:active   { color: #003C67; text-decoration: none;  }
 
 .parent-div{
   padding: 20px;
-  height: 350px;
+  height: 400px;
 }
 
 .child-div-1{
-  width: 50%;
+  width: 40%;
   float: left;
   padding: 20px;
 }
@@ -162,7 +167,7 @@ hr{
 
 /* text styling */
 
-h1, h2, p{
+h1, h2, li, p{
   font-family: Rubik;
   color:#003C67;
 }
@@ -186,6 +191,6 @@ h3{
   font-size: 20px;
   font-family: Rubik;
   line-height:0px;
-  padding-top:10px;
+  padding-top:0px;
   color:#fff;
 }
