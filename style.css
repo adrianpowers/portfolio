@@ -7,7 +7,7 @@ html, body {
 
 html {
   box-sizing: border-box;
-  background-color: #78AED5;
+  background-color: #D9E5ED;
 }
 
 *, *::before, *::after{
@@ -66,20 +66,20 @@ body{
 
 /* links */
 
-nav-button:link     { color: #FFFFFF; text-decoration: none;  }
-nav-button:visited  { color: #f1e0ee; text-decoration: none;  }
-nav-button:hover    { color: #D0E3F1; text-decoration: none;  }
-nav-button:active   { color: #003C67; text-decoration: none;  }
+nav-button:link     { color: #003C67; text-decoration: none;  }
+nav-button:visited  { color: #003C67; text-decoration: none;  }
+nav-button:hover    { color: #2F649D; text-decoration: none;  }
+nav-button:active   { color: #000000; text-decoration: none;  }
 
-a:link     { color: #FFFFFF; text-decoration: none; }
-a:visited  { color: #f1e0ee; text-decoration: none; }
-a:hover    { color: #D0E3F1; text-decoration: none; }
-a:active   { color: #003C67; text-decoration: none; }
+a:link     { color: #003C67; text-decoration: none; }
+a:visited  { color: #003C67; text-decoration: none; }
+a:hover    { color: #2F649D; text-decoration: none; }
+a:active   { color: #000000; text-decoration: none; }
 
-contact-button:link     { color: #FFFFFF; text-decoration: none;  }
-contact-button:visited  { color: #f1e0ee; text-decoration: none;  }
-contact-button:hover    { color: #D0E3F1; text-decoration: none;  }
-contact-button:active   { color: #003C67; text-decoration: none;  }
+contact-button:link     { color: #003C67; text-decoration: none;  }
+contact-button:visited  { color: #003C67; text-decoration: none;  }
+contact-button:hover    { color: #2F649D; text-decoration: none;  }
+contact-button:active   { color: #000000; text-decoration: none;  }
 
 /* containers */
 
