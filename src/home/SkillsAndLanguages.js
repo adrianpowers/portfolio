@@ -37,12 +37,15 @@ export default function SkillsAndLanguages() {
       <div>
         <h3
           id="skills-and-languages"
-          className="text-blue-900 drop-shadow-md text-3xl font-bold text-center my-10"
+          className="text-blue-900 drop-shadow-md text-3xl font-bold text-center pt-0 my-10"
         >
           Skills and Languages
         </h3>
       </div>
 
+      <div>
+        
+      </div>
       <div className="">
         <h2 className="text-slate-800 drop-shadow-md text-2xl font-semibold text-center pb-4">
           Languages
@@ -51,7 +54,7 @@ export default function SkillsAndLanguages() {
 
       {/* icons go here */}
       <div>
-        <ul className="flex justify-center">
+        <ul className="flex flex-wrap justify-center">
           <li
             onMouseEnter={() => setLanguagesText("JavaScript")}
             onMouseLeave={() => setLanguagesText("*")}
@@ -89,7 +92,7 @@ export default function SkillsAndLanguages() {
       </div>
 
       <div>
-        <ul className="flex justify-center">
+        <ul className="flex flex-wrap justify-center">
           <li
             onMouseEnter={() => setFrontendText("HTML 5")}
             onMouseLeave={() => setFrontendText("*")}
@@ -146,7 +149,7 @@ export default function SkillsAndLanguages() {
 
       {/* icons go here */}
       <div>
-        <ul className="flex justify-center">
+        <ul className="flex flex-wrap justify-center">
           <li
             onMouseEnter={() => setBackendText("Node.js")}
             onMouseLeave={() => setBackendText("*")}
@@ -191,7 +194,7 @@ export default function SkillsAndLanguages() {
 
       {/* icons go here */}
       <div>
-        <ul className="flex justify-center">
+        <ul className="flex flex-wrap justify-center">
           <li
             onMouseEnter={() => setToolsText("Visual Studio Code")}
             onMouseLeave={() => setToolsText("*")}
@@ -257,6 +260,7 @@ export default function SkillsAndLanguages() {
           {toolsText}
         </p>
       </div>
+
     </section>
   );
 }

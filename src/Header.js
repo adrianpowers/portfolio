@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
+import './index.css'
 
 export default function Header() {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
     <div className="flex items-center justify-between border-b border-gray-400 py-8">
-      <h1 className="text-3xl text-blue-900 drop-shadow-lg font-bold">
-        Adrian Powers
+      <h1 className="text-3xl text-blue-900 hover:text-blue-500 drop-shadow-lg font-bold">
+        <a href="/" style={{textDecoration: 'none', color: 'inherit'}}>Adrian Powers</a>
       </h1>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
@@ -25,13 +26,13 @@ export default function Header() {
             </div>
             <ul className="flex flex-col items-center justify-between">
               <li className="text-blue-300 text-2xl my-8 active:text-blue-700">
-                <a href="#skills-and-languages">Skills & Languages</a>
+                <a href="/#skills-and-languages" style={{textDecoration: 'none', color: 'inherit'}}>Skills & Languages</a>
               </li>
               <li className="text-blue-300 text-2xl my-8 active:text-blue-700">
-                <a href="/projects">Projects</a>
+                <a href="/projects" style={{textDecoration: 'none', color: 'inherit'}}>Projects</a>
               </li>
               <li className="text-blue-300 text-2xl my-8 active:text-blue-700">
-                <a href="/contact">Contact</a>
+                <a href="/contact" style={{textDecoration: 'none', color: 'inherit'}}>Contact</a>
               </li>
             </ul>
           </div>
@@ -39,13 +40,13 @@ export default function Header() {
 
         <ul className="hidden space-x-6 lg:flex">
           <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700">
-            <a href="#skills-and-languages">Skills & Languages</a>
+            <a href="/#skills-and-languages" style={{textDecoration: 'none', color: 'inherit'}}>Skills & Languages</a>
           </li>
           <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700">
-            <a href="/projects">Projects</a>
+            <a href="/projects" style={{textDecoration: 'none', color: 'inherit'}}>Projects</a>
           </li>
           <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700">
-            <a href="/contact">Contact</a>
+            <a href="/contact" style={{textDecoration: 'none', color: 'inherit'}}>Contact</a>
           </li>
           <li>
             <BsFillMoonStarsFill className="text-blue-800 drop-shadow-lg cursor-pointer text-2xl my-8 transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700" />
