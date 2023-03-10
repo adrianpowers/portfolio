@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -22,9 +23,9 @@ export default function Footer() {
         >
           <FaLinkedin className="transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700" />
         </a>
-        <a href="/contact">
+        <Link to="/contact">
           <AiOutlineMail className="transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700" />
-        </a>
+        </Link>
       </div>
       <p className="text-lg text-center text-blue-900 pt-3">
         Adrian Powers © 2023

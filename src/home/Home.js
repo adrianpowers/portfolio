@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import headshot from "../headshot.png";
 import SkillsAndLanguages from "./SkillsAndLanguages";
 import Header from "../Header";
@@ -24,12 +25,12 @@ export default function Home() {
             Former animator and artist turned programmer: I've got a keen eye
             for UI/UX and design and I've got what it takes to make your
             frontend pop!
-            <br />
-            <br />
+          </p>
+          <p className="text-slate-800 text-lg font-semibold py-2 leading-6">
             Wait...need some help in the backend? Never fear: RESTful APIs and
             SQL databases are my jam, too!
-            <br />
-            <br />
+          </p>
+          <p className="text-slate-800 text-lg font-semibold py-2 leading-6">
             Wherever you need a new coder in your pipeline, I can fill the gap
             with my passion, drive, and determination.
           </p>
@@ -53,9 +54,9 @@ export default function Home() {
           >
             <FaLinkedin className="transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700" />
           </a>
-          <a href="/contact">
+          <Link to="/contact">
             <AiOutlineMail className="transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700" />
-          </a>
+          </Link>
         </div>
 
         <div
@@ -83,18 +84,16 @@ export default function Home() {
             projects tab
           </a>
           , or reach out{" "}
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="text-blue-600"
             style={{ textDecoration: "none" }}
           >
             {" "}
             here
-          </a>
+          </Link>
           <br />
-          and at any of the social links below!
-          {" "}
-          {" "}
+          and at any of the social links below!{" "}
         </h1>
         <Footer />
       </div>
