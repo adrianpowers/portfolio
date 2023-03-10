@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <div className="flex items-center justify-between border-b border-gray-400 py-8">
-      <h1 className="text-3xl text-blue-900 hover:text-blue-500 drop-shadow-lg font-bold">
+      <h1 className="text-3xl text-blue-900 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700 drop-shadow-lg font-bold">
         <a href="/" style={{textDecoration: 'none', color: 'inherit'}}>Adrian Powers</a>
       </h1>
       <nav>
@@ -39,23 +39,23 @@ export default function Header() {
         </section>
 
         <ul className="hidden space-x-6 lg:flex">
-          <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700">
+          <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700">
             <a href="/#skills-and-languages" style={{textDecoration: 'none', color: 'inherit'}}>Skills & Languages</a>
           </li>
-          <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700">
+          <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700">
             <a href="/projects" style={{textDecoration: 'none', color: 'inherit'}}>Projects</a>
           </li>
-          <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700">
+          <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700">
             <a href="/contact" style={{textDecoration: 'none', color: 'inherit'}}>Contact</a>
           </li>
           <li>
-            <BsFillMoonStarsFill className="text-blue-800 drop-shadow-lg cursor-pointer text-2xl my-8 transition ease-in-out duration-150 hover:text-blue-500 active:text-blue-700" />
+            <BsFillMoonStarsFill className="text-blue-800 drop-shadow-lg cursor-pointer text-2xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700" />
           </li>
           <li>
             <button
               href="#"
               className="text-slate-200 font-semibold drop-shadow-lg bg-gradient-to-br from-blue-600 to-slate-800 
-            transition ease-in-out duration-150 hover:from-blue-500  hover:to-blue-500 active:from-blue-700 active:to-blue-700
+            transition ease-in-out duration-250 hover:from-blue-500  hover:to-blue-500 active:from-blue-700 active:to-blue-700
             rounded-br-2xl rounded-tl-2xl rounded-bl-sm rounded-tr-sm text-xl px-4 py-2 my-4"
             >
               Resume

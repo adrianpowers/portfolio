@@ -97,7 +97,6 @@ export default function Home() {
           {" "}
         </h1>
         <Footer />
-        <p className="text-lg text-center text-blue-900 pt-3">Adrian Powers © 2023</p>
       </div>
     </main>
   );
