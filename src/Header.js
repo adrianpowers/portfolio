@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
-import './index.css'
+import "./index.css";
 
 export default function Header() {
   const [navOpen, setNavOpen] = useState(false);
@@ -9,7 +9,9 @@ export default function Header() {
   return (
     <div className="flex items-center justify-between border-b border-gray-400 py-8">
       <h1 className="text-3xl text-blue-900 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700 drop-shadow-lg font-bold">
-        <a href="/" style={{textDecoration: 'none', color: 'inherit'}}>Adrian Powers</a>
+        <a href="/" style={{ textDecoration: "none", color: "inherit" }}>
+          Adrian Powers
+        </a>
       </h1>
       <nav>
         <section className="MOBILE-MENU flex lg:hidden">
@@ -26,13 +28,28 @@ export default function Header() {
             </div>
             <ul className="flex flex-col items-center justify-between">
               <li className="text-blue-300 text-2xl my-8 active:text-blue-700">
-                <a href="/#skills-and-languages" style={{textDecoration: 'none', color: 'inherit'}}>Skills & Languages</a>
+                <a
+                  href="/#skills-and-languages"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Skills & Languages
+                </a>
               </li>
               <li className="text-blue-300 text-2xl my-8 active:text-blue-700">
-                <a href="/projects" style={{textDecoration: 'none', color: 'inherit'}}>Projects</a>
+                <a
+                  href="/projects"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Projects
+                </a>
               </li>
               <li className="text-blue-300 text-2xl my-8 active:text-blue-700">
-                <a href="/contact" style={{textDecoration: 'none', color: 'inherit'}}>Contact</a>
+                <a
+                  href="/contact"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
@@ -40,26 +57,43 @@ export default function Header() {
 
         <ul className="hidden space-x-6 lg:flex">
           <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700">
-            <a href="/#skills-and-languages" style={{textDecoration: 'none', color: 'inherit'}}>Skills & Languages</a>
+            <a
+              href="/#skills-and-languages"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              Skills & Languages
+            </a>
           </li>
           <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700">
-            <a href="/projects" style={{textDecoration: 'none', color: 'inherit'}}>Projects</a>
+            <a
+              href="/projects"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              Projects
+            </a>
           </li>
           <li className="text-blue-900 font-semibold text-1xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700">
-            <a href="/contact" style={{textDecoration: 'none', color: 'inherit'}}>Contact</a>
+            <a
+              href="/contact"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              Contact
+            </a>
           </li>
           <li>
             <BsFillMoonStarsFill className="text-blue-800 drop-shadow-lg cursor-pointer text-2xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700" />
           </li>
           <li>
-            <button
-              href="#"
+            <a
+              type="button"
+              href="/resume"
               className="text-slate-200 font-semibold drop-shadow-lg bg-gradient-to-br from-blue-600 to-slate-800 
             transition ease-in-out duration-250 hover:from-blue-500  hover:to-blue-500 active:from-blue-700 active:to-blue-700
             rounded-br-2xl rounded-tl-2xl rounded-bl-sm rounded-tr-sm text-xl px-4 py-2 my-4"
+            style={{ textDecoration: "none", color: "#ffffff" }}
             >
               Resume
-            </button>
+            </a>
           </li>
         </ul>
       </nav>
