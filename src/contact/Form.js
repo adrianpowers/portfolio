@@ -18,7 +18,7 @@ export default function Form() {
       </div>
       <form
         className="flex flex-col justify-center grid gap-4 py-5"
-        action="https://formsubmit.co/adrianpowers530@gmail.com"
+        action="https://formsubmit.co/4d9bf7fdd98217b90541869285acd0e8"
         method="POST"
       >
         <input
