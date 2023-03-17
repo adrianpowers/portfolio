@@ -3,12 +3,12 @@ import "../index.css";
 
 export default function Form() {
   return (
-    <div className="grid grid-cols-4 gap-4">
-      <div className="col-start-2 mt-4">
-        <h1 className="text-4xl font-bold text-right text-blue-900 dark:text-blue-300 drop-shadow-md my-4">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-4">
+      <div className="lg:col-start-2 mt-4">
+        <h1 className="text-4xl font-bold text-center text-blue-900 dark:text-blue-300 drop-shadow-md my-4">
           Contact Me
         </h1>
-        <p className="text-2xl text-right dark:text-blue-400">
+        <p className="text-2xl text-center dark:text-blue-400">
           Please provide your first and last name, phone number, email,
           preferred method of contact, and a message to let me know why you're
           reaching out. You can expect a quick response, within 1-2 business
@@ -16,7 +16,7 @@ export default function Form() {
         </p>
       </div>
       <form
-        className="flex flex-col justify-center grid gap-4 py-5"
+        className="grid flex-col justify-center gap-4 py-4 lg:col-start-3"
         action="https://formsubmit.co/4d9bf7fdd98217b90541869285acd0e8"
         method="POST"
       >
@@ -25,7 +25,7 @@ export default function Form() {
           name="name"
           required="true"
           placeholder="Name"
-          className="form-input py-2 rounded-sm bg-slate-100 text-blue-900"
+          className="form-input py-2 max-h-fit rounded-sm bg-slate-100 text-blue-900"
         />
         <input
           type="tel"

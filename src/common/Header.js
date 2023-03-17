@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import { BsFillMoonStarsFill, BsSun } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import "../index.css";
@@ -43,12 +44,12 @@ export default function Header({ darkMode, setDarkMode }) {
             </div>
             <ul className="flex flex-col items-center justify-between">
               <li className="text-blue-300 text-2xl my-8 active:text-blue-700">
-                <Link
+                <HashLink
                   to="/#skills-and-languages"
                   style={{ textDecoration: "none", color: "inherit" }}
                 >
                   Skills & Languages
-                </Link>
+                </HashLink>
               </li>
               <li className="text-blue-300 text-2xl my-8 active:text-blue-700">
                 <Link
@@ -73,12 +74,12 @@ export default function Header({ darkMode, setDarkMode }) {
         {/* Desktop-sized Header Menu */}
         <ul className="hidden space-x-6 lg:flex">
           <li className="text-blue-900 dark:text-blue-400 font-semibold text-1xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700 dark:hover:text-blue-500 dark:active:text-blue-700">
-            <Link
+            <HashLink
               to="/#skills-and-languages"
               style={{ textDecoration: "none", color: "inherit" }}
             >
               Skills & Languages
-            </Link>
+            </HashLink>
           </li>
           <li className="text-blue-900 dark:text-blue-400 font-semibold text-1xl my-8 transition ease-in-out duration-250 hover:text-blue-500 active:text-blue-700 dark:hover:text-blue-500 dark:active:text-blue-700">
             <Link
