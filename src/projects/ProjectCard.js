@@ -22,7 +22,7 @@ export default function ProjectCard({ title, description, githubLink, siteLink }
             target="_blank"
             rel="noreferrer"
             style={{ textDecoration: "none" }}
-            className="inline-flex items-center px-3 py-2 mr-2 text-sm font-medium text-center text-white rounded-lg bg-blue-800 hover:bg-blue-600 active:bg-blue-900 dark:bg-blue-600 dark:hover:bg-blue-800"
+            className="inline-flex items-center px-3 py-2 mt-2 mr-2 text-sm font-medium text-center text-white rounded-lg bg-blue-800 hover:bg-blue-600 active:bg-blue-900 dark:bg-blue-600 dark:hover:bg-blue-800"
           >
             Deployed Site
           </a> : null

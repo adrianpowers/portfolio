@@ -67,6 +67,23 @@ export default function Header({ darkMode, setDarkMode }) {
                   Contact
                 </Link>
               </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/document/d/e/2PACX-1vQSEtg9iFOud1mpV9UfrpV-NpTROnho0JfERK5FxGyItnTVwTcgtiSPlN--DRYht-qcIwH8c_cJQJ-9/pub"
+                  rel="noreferrer"
+                >
+                  <button
+                    type="button"
+                    className="text-slate-200 font-semibold drop-shadow-lg bg-gradient-to-br from-blue-600 to-slate-800 
+            transition ease-in-out duration-250 hover:from-blue-500  hover:to-blue-500 active:from-blue-700 active:to-blue-700
+            rounded-br-2xl rounded-tl-2xl rounded-bl-sm rounded-tr-sm text-xl px-4 py-2 my-4"
+                    style={{ textDecoration: "none", color: "#ffffff" }}
+                  >
+                    Resume
+                  </button>
+                </a>
+              </li>
             </ul>
           </div>
         </section>
