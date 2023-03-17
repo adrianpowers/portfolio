@@ -1,15 +1,14 @@
-import React, { useState } from "react";
-import { useForm } from "react-hook-form";
+import React from "react";
 import "../index.css";
 
 export default function Form() {
   return (
     <div className="grid grid-cols-4 gap-4">
       <div className="col-start-2 mt-4">
-        <h1 className="text-4xl font-bold text-right text-blue-900 drop-shadow-md my-4">
+        <h1 className="text-4xl font-bold text-right text-blue-900 dark:text-blue-300 drop-shadow-md my-4">
           Contact Me
         </h1>
-        <p className="text-2xl text-right">
+        <p className="text-2xl text-right dark:text-blue-400">
           Please provide your first and last name, phone number, email,
           preferred method of contact, and a message to let me know why you're
           reaching out. You can expect a quick response, within 1-2 business
@@ -51,7 +50,7 @@ export default function Form() {
         />
 
         <label htmlFor="contactMethod">
-          <p className="text-slate-900 font-semibold text-lg text-center pt-2">
+          <p className="text-slate-900 dark:text-blue-300 font-semibold text-lg text-center pt-2">
             Preferred Method of Contact:
           </p>
         </label>
